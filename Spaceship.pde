@@ -30,4 +30,12 @@ public void hyperSpace(){
   myCenterX = (int)(Math.random()*490);
   myCenterY = (int)(Math.random()*490);
 }
+
+public double getMyCenterX(){
+  return myCenterX;
+}
+
+public double getMyCenterY(){
+  return myCenterY;
+}
 }
