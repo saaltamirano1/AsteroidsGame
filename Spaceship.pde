@@ -13,7 +13,7 @@ public Spaceship(){
   xCorners[3] = -2;
   yCorners[3] = 0;   
   
-   myColor = 255;   
+   myColor = color(255,0,153);   
    myCenterX = 250;
    myCenterY = 250; //holds center coordinates   
    myXspeed = 0; 
@@ -37,5 +37,17 @@ public double getMyCenterX(){
 
 public double getMyCenterY(){
   return myCenterY;
+}
+
+public double getMyXspeed(){
+  return myXspeed;
+}
+
+public double getMyYspeed(){
+  return myYspeed;
+}
+
+public double getMyPointDirection(){
+  return myPointDirection;
 }
 }
