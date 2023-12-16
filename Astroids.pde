@@ -18,9 +18,9 @@ class Asteroid extends Floater
     xCorners[5] = -15;
     yCorners[5] = 0;
     
-   myCenterX = (int)(Math.random()*500);
-   myCenterY = (int)(Math.random()*500);
-   myColor = color(103,102,102);   
+   myCenterX = (int)(Math.random()*530);
+   myCenterY = (int)(Math.random()*530);
+   myColor = color(39,35,37);  
    myXspeed = (int)(Math.random()*.5)+1;
    myYspeed = (int)(Math.random()*.5)+1;
    rotSpeed = (int)(Math.random()*3)+1;
