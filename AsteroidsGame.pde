@@ -42,9 +42,9 @@ public void draw()
     if(distance < 70){
     rocks.remove(n); 
     bullets.remove(i);
+    break;
      }
     }
-    break;
  }
   bob.show();
   bob.move();
